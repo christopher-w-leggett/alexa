@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/alexa" />
+    <filter root="/etc/designs/alexa">
+        <exclude pattern="/etc/designs/alexa/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/etc/packages/aem-library/aem-library-ui-${aem.library.version}.zip"/>
+    <filter root="/etc/packages/multicompositeaddon/multicomposite-addon-${multicompositeaddon.version}.zip"/>
+</workspaceFilter>
